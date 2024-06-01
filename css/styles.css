@@ -21,6 +21,15 @@ main {
   text-decoration: underline;
 }
 
+.svg {
+  margin-right: 5px;
+}
+
+.svg-lateral-img {
+  position: absolute;
+  right: 10px;
+}
+
 /* .list-decoration {
   list-style-type: circle;
 } */
@@ -105,9 +114,18 @@ main {
   font-size: 16px;
   letter-spacing: 0.04em;
 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
   color: #fff;
 
   padding-left: 10px;
+}
+
+.contacts-list > li > a:focus,
+.contacts-list > li > a:hover {
+  color: grey;
 }
 
 .contacts-list > li > a {
@@ -223,6 +241,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  position: relative;
 }
 
 .profile-container-elements {
@@ -247,6 +267,15 @@ main {
   font-size: 16px;
   letter-spacing: 0.04em;
 }
+
+.svg-profile {
+  position: absolute;
+  top: 0px;
+  left: -80px;
+
+  z-index: -1;
+}
+
 .cv-body {
   display: flex;
   flex-direction: column;
@@ -261,6 +290,8 @@ main {
   justify-content: center;
 
   gap: 20px;
+
+  position: relative;
 }
 
 .projects-container > h2 {
@@ -303,6 +334,11 @@ main {
   color: black;
 }
 
+.projects-list-elements > a:focus,
+.projects-list-elements > a:hover {
+  color: red;
+}
+
 .projects-list-elements > ul > li {
   max-width: 700px;
 
@@ -329,6 +365,8 @@ main {
   justify-content: center;
 
   gap: 20px;
+
+  position: relative;
 }
 
 .work-container > h2 {
@@ -371,6 +409,11 @@ main {
   color: black;
 }
 
+.work-list-elements > a:focus,
+.work-list-elements > a:hover {
+  color: blue;
+}
+
 .work-list-elements > ul {
   display: flex;
   flex-direction: column;
@@ -403,6 +446,8 @@ main {
   justify-content: center;
 
   gap: 20px;
+
+  position: relative;
 }
 
 .education-container > h2 {
