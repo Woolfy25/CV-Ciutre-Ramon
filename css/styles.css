@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+  width: 1200px;
+}
+
+main {
+  background-color: rgb(187, 187, 187);
+  display: flex;
+}
+
+.aside {
+  background-color: rgb(236, 214, 255);
+}
