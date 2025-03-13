@@ -289,8 +289,6 @@ main {
   flex-direction: column;
   justify-content: center;
 
-  gap: 20px;
-
   position: relative;
 }
 
@@ -300,6 +298,7 @@ main {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: black;
+  margin-bottom: 20px;
 }
 
 .projects-list {
@@ -370,8 +369,6 @@ main {
   flex-direction: column;
   justify-content: center;
 
-  gap: 20px;
-
   position: relative;
 }
 
@@ -381,6 +378,7 @@ main {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: black;
+  margin-bottom: 20px;
 }
 
 .work-list {
